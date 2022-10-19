@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background-image: url(./CryptoFundo.svg); 
+    background-size: cover; 
+    padding-left: 63px;
+    padding-top: 90px;
+}
+
+h1 {
+    color: white; 
+    width: 317px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 60px;
+    line-height: 90px;
+    top: 10px;
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color:#7473D0;
+    
+}
+
+.sub-title {
+    margin-top: 20px;
+}
+
+.logo {
+    position: absolute;
+    width: 131px;
+    height: 40px;
+    left: 63px;
+    top: 58px;
+
+    
+}
+
+#main {
+    position: absolute;
+    width: 317px;
+    height: 90px;
+    left: 85px;
+    top: 205px;
+    
+}
+
+input#name,input#email,input#phone {
+    display: flex;
+    width: 397px;
+    height: 55px;
+    margin-bottom: 16px;
+    border-radius: 11px;
+    border: 1px solid #7473d0;
+    text-align: left;
+    background: none;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #B1AFCD;
+}
+
+input[type="Submit"]{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    width: 397px;
+    height: 55px;
+    margin-bottom: 16px;
+    border-radius: 11px;
+    background: #42E8E0;
+    align-items: center;
+    color: #17153A;
+    }
+
+::-webkit-input-placeholder{
+    padding-left: 15px;
+    font-family: 'poppins', 500,16px,22px;
+    
+}
+
+li {
+list-style: none;
+
+}
+
+
+.image-predios{
+    padding-left: 120px;
+    padding-top: -40px;
+    left: 500px;
+    top: 5px;
+    height: 573px;
+    position: absolute;
+    right: auto;
+    
+}
+
